@@ -5,6 +5,7 @@ from config import GPT_KEY
 model = "gpt-3.5-turbo-0125"
 
 # 设置 GitHub API 的基本 URL 和要获取提交的存储库信息
+# 小改一点点，第八行修改
 base_url = 'https://api.github.com'
 owner = 'xdc920484944'  # 存储库所有者的用户名
 repo = 'Graduation-project'  # 存储库的名称
